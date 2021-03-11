@@ -113,4 +113,4 @@ Alternatively, you can deploy using our template by clicking on the Deploy butto
 
 ### Questions?
 
-Join us on [Slack](https://slack.prepr.io) or contact support at support@prepr.io
+Join us on [Slack](https://slack.prepr.io) or contact support at support@prepr.io.
