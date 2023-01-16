@@ -36,7 +36,7 @@ export default function Post({ post, morePosts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.cover[0].cdn_files[0].url}
+                coverImage={post.cover[0].url}
                 date={post.date}
                 author={post.author[0]}
               />

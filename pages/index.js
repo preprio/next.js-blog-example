@@ -21,7 +21,7 @@ export default function Index({ posts, preview }) {
           {heroPost && (
             <HeroPost
               title={heroPost.title}
-              coverImage={heroPost.cover[0].cdn_files[0].url}
+              coverImage={heroPost.cover[0].url}
               date={heroPost.date}
               author={heroPost.author[0]}
               slug={heroPost._slug}

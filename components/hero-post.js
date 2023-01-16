@@ -19,8 +19,8 @@ export default function HeroPost({
       <div className="mb-20 md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 md:mb-28">
         <div>
             <h3 className="mb-4 text-4xl leading-tight lg:text-6xl">
-             <Link as={`/posts/${slug}`} href="/posts/[slug]">
-               <a className="hover:underline">{title}</a>
+            <Link href={`/posts/${slug}`} className="hover:underline">
+               {title}
              </Link>
             </h3>
             <div className="mb-4 text-lg md:mb-0">
@@ -29,7 +29,7 @@ export default function HeroPost({
           </div>
         <div>
             <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
-            <Avatar name={author.name} picture={author.cover[0].cdn_files[0].url} />
+            <Avatar name={author.name} picture={author.cover[0].url} />
         </div>
     </div>
     </section>

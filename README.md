@@ -13,7 +13,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 Once you have access to [the environment variables you'll need](#step-3-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-prepr&project-name=cms-prepr&repository-name=cms-prepr&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https://vercel.link/cms-prepr-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-prepr&project-name=cms-prepr&repository-name=cms-prepr&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_SECRET_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https://vercel.link/cms-prepr-env)
 
 ## How to use
 
@@ -65,7 +65,7 @@ Enter the name `Next.js Production` and add the scope `graphql_published` and cl
 
 Copy the generated access token and set the variable `PREPRIO_PRODUCTION_TOKEN` in `.env.local`.
 
-The `PREPRIO_PREVIEW_KEY` can be any random string (but avoid spaces), like a UUID`, this is used
+The `PREPRIO_PREVIEW_SECRET_KEY` can be any random string (but avoid spaces), like a UUID`, this is used
 for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
 
 ### Step 4. Run Next.js in development mode
@@ -108,7 +108,7 @@ To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-prepr&project-name=cms-prepr&repository-name=cms-prepr&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https://vercel.link/cms-prepr-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-prepr&project-name=cms-prepr&repository-name=cms-prepr&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_SECRET_KEY&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https://vercel.link/cms-prepr-env)
 
 
 ### Questions?
