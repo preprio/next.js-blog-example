@@ -89,7 +89,7 @@ In Prepr, go to one of the posts in your environment and:
 - **Update the title**. For example, you can add `[REVIEW]` in front of the title.
 - After you edit the publication save the post with a review state.
 
-To view the preview, transform the url to the following format: `http://localhost:3000/api/preview?secret=<YOUR_SECRET_TOKEN>&slug=<SLUG_TO_PREVIEW>` where `<YOUR_SECRET_TOKEN>` is
+To view the preview, transform the url to the following format: `http://localhost:3000/api/preview?secret=<PREPRIO_PREVIEW_SECRET_KEY>&slug=<SLUG_TO_PREVIEW>` where `<PREPRIO_PREVIEW_SECRET_KEY>` is
 the same secret you defined in the `.env.local` file and `<SLUG_TO_PREVIEW>` is the slug of one of the posts you want to preview.
 
 You should now be able to see post that are in Review and Done state. To exit the preview mode, you can click on _"Click here to exit preview mode"_ at the top.
