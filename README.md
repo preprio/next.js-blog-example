@@ -7,7 +7,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 Check out our Blog page example:
 
 * **Live**: [https://next-blog-prepr.vercel.app/](https://next-blog-prepr.vercel.app/)
-* **Preview**: [https://next-blog-prepr.vercel.app/api/preview...](https://next-blog-prepr.vercel.app/api/preview?secret=237864ihasdhj283768&slug=as-easy-as-appelbol)
+* **Preview**: [https://next-blog-prepr.vercel.app/api/preview...](https://next-blog-prepr.vercel.app/api/preview?secret=237864ihasdhj283768&slug=blueberry-cheesecake)
 
 ## How to use
 
@@ -129,7 +129,7 @@ You can go for one of the following options:
 * **Deploy from our template**</br>
   Alternatively, you can deploy using our template by clicking on the **Deploy** button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpreprio%2Fnext.js-blog-example%2Ftree%2Fmain&project-name=cms-prepr&repository-name=cms-prepr&&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https%3A%2F%2Fvercel.link%2Fcms-prepr-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-prepr&project-name=cms-prepr&repository-name=cms-prepr&env=PREPRIO_API,PREPRIO_PRODUCTION_TOKEN,PREPRIO_PREVIEW_TOKEN,PREPRIO_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Prepr&envLink=https://vercel.link/cms-prepr-env)
 
 ## Next steps
 
@@ -139,3 +139,23 @@ For more advanced topics, please refer to the Prepr’s documentation:
 * [Recommendations](https://docs.prepr.io/optimization-and-personalization/recommendations)
 
 If you have questions, please [get in touch](https://prepr.io/get-in-touch) with one of our specialists or [join our Slack community](https://slack.prepr.io/).
+
+## Related examples
+
+- [WordPress](/examples/cms-wordpress)
+- [DatoCMS](/examples/cms-datocms)
+- [Sanity](/examples/cms-sanity)
+- [TakeShape](/examples/cms-takeshape)
+- [Prismic](/examples/cms-prismic)
+- [Contentful](/examples/cms-contentful)
+- [Strapi](/examples/cms-strapi)
+- [Agility CMS](/examples/cms-agilitycms)
+- [Cosmic](/examples/cms-cosmic)
+- [ButterCMS](/examples/cms-buttercms)
+- [Storyblok](/examples/cms-storyblok)
+- [Kontent](/examples/cms-kontent)
+- [Ghost](/examples/cms-ghost)
+- [GraphCMS](/examples/cms-graphcms)
+- [Blog Starter](/examples/blog-starter)
+- [DotCMS](/examples/cms-dotcms)
+- [Enterspeed](/examples/cms-enterspeed)
