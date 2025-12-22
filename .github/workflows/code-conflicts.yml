@@ -1,0 +1,10 @@
+name: Check for code conflicts
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  conflicts:
+    uses: preprio/.github-workflows/.github/workflows/code-conflicts.yml@main
+    secrets: inherit
