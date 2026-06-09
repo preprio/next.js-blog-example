@@ -7,7 +7,7 @@ export default function Alert({ preview }) {
     <div className="border-b border-primary-700 bg-primary-600 text-white">
       <Container>
         <div className="py-2 text-center text-sm">
-          This page is a preview.{' '}
+          This is page is a preview.{' '}
           <a
             href="/api/exit-preview"
             className="underline transition-colors hover:text-primary-100"
