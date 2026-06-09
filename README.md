@@ -7,7 +7,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 Check out our Blog page example:
 
 - **Live**: [https://next-blog-prepr.vercel.app/](https://next-blog-prepr.vercel.app/)
-- **Preview**: [https://next-blog-prepr.vercel.app/api/preview...](https://next-blog-prepr.vercel.app/api/preview?secret=237864ihasdhj283768&slug=blueberry-cheesecake)
+- **Preview**: [https://next-blog-prepr.vercel.app/api/preview...](https://next-blog-prepr.vercel.app/api/preview?secret=237864ihasdhj283768&slug=electric-vehicle-leasing-is-it-the-smart-choice-in-2025)
 
 ## How to use
 
@@ -103,7 +103,7 @@ Before proceeding, you can test how the content preview works in Prepr. This ste
 
 To try preview mode, follow these steps:
 
-**4.1** In Prepr, go to one of the content items of the _Article model_ and update the item title. For example, you can add _[PREVIEW]_ in front of the title. After you edit the content item, save it with the _Review status_.
+**4.1** In Prepr, go to one of the content items of the _Post model_ and update the item title. For example, you can add _[PREVIEW]_ in front of the title. After you edit the content item, save it with the _Review status_.
 
 **4.2** To preview the content item, transform its URL to the following format:
 
