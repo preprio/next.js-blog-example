@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  turbopack: {
+    root: __dirname,
+  },
   images: {
-    domains: [
-      'b-cdn.net',
-      'prepr-example-content-demo-patterns.stream.prepr.io',
-      'demo-site-patterns.stream.prepr.io',
+    remotePatterns: [
+      { protocol: 'https', hostname: '*.stream.prepr.io' },
+      { protocol: 'https', hostname: '*.b-cdn.net' },
     ],
   },
 }
