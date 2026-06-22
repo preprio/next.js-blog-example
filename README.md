@@ -115,7 +115,7 @@ where:
 
 **Note:** To exit the preview mode, you must click on **Click here to exit preview mode** at the top of the page.
 
-![Preview content item](https://assets-site.prepr.io//4hd7vgoyke24-web-page.png)
+![Preview content item](https://assets-site.prepr.io/5ka2qfut72rk//preview-mode-example.png)
 
 ### Step 5. Deploy on Vercel
 
